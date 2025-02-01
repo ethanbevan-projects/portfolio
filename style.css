@@ -1438,10 +1438,10 @@ html, body {
 
 /* Smallest iphone */
 
-@media (max-width: 388px) {
+@media (max-width: 400px) {
 
 .column2 {
-  padding: 38px 0px;
+  padding: 0px 0px;
 }
 
 .timeline h2 {
@@ -1452,6 +1452,16 @@ html, body {
   font-size: 12px;
 }
 
+
+}
+
+@media (max-width: 388px) {
+
+  .column2 {
+    padding: 38px 0px;
+
+
+  }
 
 }
 
