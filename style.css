@@ -82,7 +82,8 @@ body {
     font-family: 'PragmaticaExtendedBold', sans-serif;
     font-size: 13px;
     color: #ffffff;
-    animation: fadeIn 2s forwards;
+    animation: fadeIn 2s forwards;  
+    text-decoration: none;
   }
 
 h1 {
@@ -95,7 +96,7 @@ h1 {
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'PragmaticaExtendedBold', sans-serif;
     text-transform: uppercase;
     text-align: left;
@@ -126,11 +127,38 @@ h1 {
     opacity: 80% !important;
 
   }
-  
-p {
+
+
+  h6 {
+
     font-size: 12px;
     font-family: 'PragmaticaExtendedBold', sans-serif;
-    text-transform: uppercase;
+    text-transform: ;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 2s forwards;
+    opacity: 70% !important;
+
+  }
+
+  .companyName {
+
+    font-size: 12px;
+    font-family: 'PragmaticaExtendedBold', sans-serif;
+    text-transform: ;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 2s forwards;
+    opacity: 100% !important;
+
+  }
+  
+p {
+    font-size: 13px;
+    font-family: 'PragmaticaExtendedBold', sans-serif;
+
   }
 
   
@@ -217,21 +245,10 @@ p {
     opacity: 0;
 }
 
-/* Mobile CSS */
-
-@media (max-width: 1000px) {
-    h1 {
-        font-size: 55px;
-    }
-    .TypeJS {
-        height: 100%;
-    }
-}
-
 /* Navigation */
 
 .mainNav {
-      display: inline-flex;
+      display: block;
       justify-content: center;
       animation: fadeIn 2s forwards;
       position: fixed;
@@ -253,7 +270,7 @@ transition: 0.3s;
 
 .navLinks {
  
-    width: 100%;
+    width: 87%;
     height: 100%;
     z-index: 10;
     margin: 35px 100px 30px 150px;
@@ -290,6 +307,7 @@ height: 65px;
 .sections-grid {
 
   height: 100%;
+  display: inline-block;
 
 }
 
@@ -321,6 +339,8 @@ height: 100%;
     color: rgb(226, 20, 20);
     cursor: pointer;
   }
+
+
 
   .sections-start, .sections {
     display: flex;
@@ -373,8 +393,8 @@ height: 100%;
   }
 
 
-.columnInnerText {
-    margin: 0px 80px 0px 40px;
+  .columnInnerText {
+    margin: 25px 100px 0px 40px;
 }
 
 
@@ -399,7 +419,11 @@ height: 100%;
 
     width: 33%;
     padding: 10px;
+
+
 }
+
+
 
 .columnEducation {
   width: 50%;
@@ -481,10 +505,12 @@ max-width: 100%;
 }
 
 .footer img {
-  height: 15px;
-  padding: 5px;
+  height: 18px;
+  padding: 7px;
   margin: 4px 0px 0px 0px;
 }
+
+
 
 .mainSectionTitles {
 
@@ -621,4 +647,540 @@ max-width: 100%;
   padding: 40px;
   line-height: 18px;
 }
+
+
+.innerEducaton {
+  
+  margin-top: 15px;
+
+}
+
+
+
+
+/* Mobile CSS */
+
+
+
+
+
+@media (max-width: 1400px) {
+
+  .columnInnerText {
+    margin: 10px 100px 0px 40px;
+  }
+
+  .navLinks {
+ 
+    width: 83%;
+    height: 100%;
+    z-index: 10;
+    margin: 35px 100px 30px 150px;
+    animation: fadeIn 2s forwards;
+}
+  
+  }
+
+
+@media (max-width: 1100px) {
+
+
+
+  .navLinks {
+ 
+    width: 82%;
+    }
+  
+  }
+
+
+  /* MAIN CSS MOBLE */
+
+@media (max-width: 1050px) {
+ 
+  h1 {
+      
+    font-size: 55px;
+
+  }
+  .TypeJS {
+
+      height: 100%;
+
+  }
+
+  .navLinks {
+
+    margin: 35px 15px 30px 150px;
+
+  }
+
+  .mainNav .navLinks a {
+
+  margin: 10px 0px 0px 0px;
+  font-size: 12px;
+  
+}
+
+.columnInnerText {
+  margin: 40px 40px 0px 0px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+
+}
+
+.columnInnerText p, .innerSections-3 p, .innerSections-3 h6 {
+font-size: 11px;
+}
+
+.innerSections-3 h6 {
+margin-top: 20px;
+}
+
+.innerSections-2 {
+  margin-top: 0px;
+
+}
+
+.innerSections-1 {
+  margin-top: 60px;
+}
+
+.portfolioCentered p {
+  font-size: 10px;
+}
+
+.innerSections-3 {
+  margin-top: 70px;
+}
+
+.top-section h1 {
+font-size: 40px;
+}
+
+.row-education {
+  width: 100%;
+  height: 300px;
+  display: inline-grid
+;
+  justify-content: center;
+}
+
+.columnEducation {
+width: 100%;
+}
+
+.finalsectionGap {
+  height: 300px;
+}
+
+/* closing */
+
+}
+
+.mainLogoMobile, .mobileMenu, .barsOuter {
+display: none;
+}
+
+/* end */
+
+@media (max-width: 762px) {
+
+  .mainLogoMobile, .mobileMenu, .barsOuter {
+    display: block;
+    }
+
+  .top-section h1 {
+font-size: 32px;
+  }
+
+.navLinks {
+display: none;
+margin: 0px;
+
+}
+
+.navLinksMobile a {
+float: right;
+}
+
+.boxIcon {
+width: 100%;
+}
+
+.navLinksMobile {
+  width: 100%;
+  display: inline-flex;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.innerSections-4 {
+
+  width: 100%;
+}
+
+.container, .top-section {
+
+  max-width: 100%;
+}
+
+
+/* Timeline mobile */
+
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.timeline h2 {
+font-size: 20px;
+}
+
+.bead {
+  position: absolute;
+  display: block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: #ff2d2d;
+  left: 50%;
+  top: 38%;
+  transform: translateX(-50%);
+}
+
+.line:before, .line::after {
+
+display: none;
+
+}
+
+
+
+.row-education {
+  width: 100%;
+  height: 270px;
+  display: inline-grid
+;
+  justify-content: center;
+  max-width: 375px;
+}
+
+.columnEducation {
+  padding: 0px 40px;
+
+}
+
+#Testimonials .innerSections-3 { 
+  
+  margin-top: 10px !important;
+}
+
+#Testimonials .innerSections-3 h2 { 
+  
+  margin-bottom: 0px;
+}
+
+#Testimonials h6 { 
+  margin-top: 10px;
+}
+
+.innerSections-3 .row {
+
+  display: block;
+
+
+}
+
+.columns, .columnTestimonial {
+  padding: 12px 0px;
+  width: 92%; 
+  padding: 20px 0px; 
+  margin: 0px auto; 
+
+
+}
+
+.columnTestimonial {
+  padding: 20px 0px 0px 0px;
+}
+
+.column2 {
+
+  padding: 12px 0px;
+
+}
+
+.innerSections-3 {
+  margin: 65px 60px 65px 24px;
+  margin-top: 90px;
+}
+
+.innerSections-3 .testimonialSectionTitles  {
+text-align: left;
+}
+
+.sections-grid .mainSectionTitles {
+  margin: -10px 0px 40px 0px;
+}
+
+.rowImages {
+  width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;  
+}
+
+.innerEducaton h2 {
+
+  font-size: 20px;
+
+}
+
+.innerEducaton p {
+
+  font-size: 13px;
+
+}
+
+#Experience .top-section {
+  padding: 0rem 0 3rem 0;
+}
+
+#Experience .container {
+  padding: 0rem 2rem;
+}
+ 
+#Education .top-section h1 {
+
+margin-top: 85px;
+
+}
+
+.innerSections-1 .column1, .innerSections-1 .column2 {
+
+  width: 100%;
+  height: auto;
+  
+}
+
+.sections-start {
+  background-color: white;
+  height: 100%;
+}
+
+.row {
+  display: block;
+}
+
+.innerSections-1 {
+  margin: 35px 35px 0px 35px;
+  margin-top: 35x;
+}
+
+button {
+  margin: 28px 10px 0px 10px;
+}
+
+
+.TypeJS h1 {
+
+font-size: 36px;
+
+}
+
+.sections-start, .sections {
+  display: block;
+  justify-content: center;
+}
+
+
+.columnEducation {
+  width: 300px;
+}
+
+.footer img {
+  height: 25px;
+  padding: 7px;
+  margin: 4px 0px 0px 0px;
+}
+.mainNav {
+  
+  margin: 40px 0px;
+
+}
+
+.barsOuter {
+  padding: 20px;
+  width: 93%;
+  display: flex
+;
+  margin-top: -83px;
+  /* padding: 25px 40px; */
+}
+
+.iconMobileBars {
+
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 0px 35px 0px 0px;
+    align-items: center;
+}
+
+.barsOuterLogo {
+
+  padding: 20px;
+  width: 100%;
+  display: inline-flex
+  ;
+
+}
+
+.iconMobileBarsLogo {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 35px 0px 0px;
+    align-items: center;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+
+}
+
+.mobileMenu {
+
+visibility: hidden;
+
+}
+.mobileMenuColumn {
+  display: grid;
+  padding: 100px;
+  height: 500px;
+
+}
+
+
+.mobileMenuInner {
+  padding: 40px 0px;
+  justify-content: center;
+  background-color: red;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* padding: 40px; */
+  /* display: grid
+; */
+  /* justify-content: center; */
+  background-color: red;
+  /* height: 500px; */
+  z-index: 999;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+.mobileMenu a {
+font-size: 20px;
+padding: 10px;
+
+}
+
+
+.mobileClose {
+
+  z-index: 1000;
+
+}
+
+
+.fa-close {
+
+  visibility: hidden;
+  margin-left: -18px;
+}
+
+.mainNav:hover {
+  box-shadow: none;
+animation: fadeIn 2s forwards;
+transition: 0.3s;
+}
+
+
+
+.fa-bars, .fa-close {
+
+  font-size: 20px !important;
+
+}
+
+}
+
+/* end */
+
+
+
+
 
