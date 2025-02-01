@@ -98,5 +98,60 @@ window.addEventListener('scroll', scrollHandler)
 
 
 
+// mobile menu
+
+
+
+document.getElementById("MobileMenu").onclick = openMobileMenu;
+
+  function openMobileMenu() {
+  // Open
+
+  document.querySelector(".mobileMenu").style.visibility = "visible";
+
+  document.querySelector(".mainLogoMobile").style.visibility = "hidden";
+
+  document.querySelector(".fa-bars").style.visibility = "hidden";
+
+  document.querySelector(".fa-close").style.visibility = "visible";
+  
+
+}
+
+
+
+
+
+
+
+
+document.getElementById("MobileMenuClose").onclick = closeMobileMenu;
+
+function closeMobileMenu() {
+
+  // Close
+
+  document.querySelector(".mobileMenu").style.visibility = "hidden";
+
+  document.querySelector(".mainLogoMobile").style.visibility = "visible";
+
+  document.querySelector(".fa-bars").style.visibility = "visible";
+
+  document.querySelector(".fa-close").style.visibility = "hidden";
+  
+
+}
+
+
+
+const menuItems = document.querySelectorAll('.mobileListItems');
+console.log('Number of items:', menuItems.length); // Check the count
+
+
+menuItems.forEach(menuItem => {
+
+  menuItem.addEventListener('click', closeMobileMenu);
+
+});
 
 
