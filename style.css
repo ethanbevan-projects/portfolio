@@ -5,6 +5,8 @@
  
 }
 
+
+
 body {
 
     margin: 0;
@@ -1431,6 +1433,17 @@ html, body {
   -ms-touch-action: manipulation;
 }
 
+/* 
+.backgroundVideoMainOverlay {
+height: 100%;
+} */
+
+.backgroundVideoSection {
+  height: 100%;
+  padding: 50px 0px;
+  width: 100%;
+  justify-content: flex-end;
+}
 
 }
 
@@ -1439,6 +1452,8 @@ html, body {
 /* Smallest iphone */
 
 @media (max-width: 400px) {
+
+ 
 
 .column2 {
   padding: 0px 0px;
@@ -1461,6 +1476,13 @@ html, body {
 }
 
 @media (max-width: 388px) {
+
+  .backgroundVideoSection {
+    height: 100%;
+    padding: 0px 0px;
+    width: 100%;
+    justify-content: flex-end;
+  }
 
   .column2 {
     padding: 38px 0px;
