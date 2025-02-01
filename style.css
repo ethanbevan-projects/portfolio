@@ -696,7 +696,8 @@ max-width: 100%;
 
   /* MAIN CSS MOBLE */
 
-@media (max-width: 1050px) {
+
+@media (max-width: 1023px) {
  
   h1 {
       
@@ -786,6 +787,255 @@ display: none;
 }
 
 /* end */
+
+
+
+
+
+  /* Regular Ipad */
+
+
+@media (min-width: 762px) and (max-width: 1050px) {
+
+  .columnEducation {
+    width: 100% !important;
+}
+
+.columnInnerText {
+  margin: 20px 10px 0px 0px;
+}
+
+.columnInnerText p {
+  font-size: 10px;
+}
+
+
+.column2 {
+  float: left;
+  width: 50%;
+
+}
+
+.column1, .column2, .sections-start, .innerSections-1, .backgroundVideoSection {
+
+  height: 100%;
+
+}
+
+
+.mainLogoMobile, .mobileMenu, .barsOuter {
+  display: block;
+  }
+
+.navLinks {
+display: none;
+margin: 0px;
+
+}
+
+.navLinksMobile a {
+float: right;
+}
+
+.boxIcon {
+width: 100%;
+}
+
+.navLinksMobile {
+width: 100%;
+display: inline-flex;
+}
+
+.mobile-container {
+max-width: 480px;
+margin: auto;
+background-color: #555;
+height: 500px;
+color: white;
+border-radius: 10px;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #333;
+position: relative;
+}
+
+.topnav #myLinks {
+display: none;
+}
+
+.topnav a {
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+}
+
+.topnav a.icon {
+background: black;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.active {
+background-color: #04AA6D;
+color: white;
+}
+
+html, body {
+overflow-x: hidden;
+width: 100%;
+}
+
+
+
+.columnEducation {
+width: 300px;
+}
+
+.footer img {
+height: 25px;
+padding: 20px 15px;
+margin: 4px 0px 0px 0px;
+}
+.mainNav {
+
+margin: 40px 0px;
+
+}
+
+.barsOuter {
+padding: 20px;
+width: 93%;
+display: flex
+;
+margin-top: -83px;
+/* padding: 25px 40px; */
+}
+
+.iconMobileBars {
+
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin: 0px 35px 0px 0px;
+  align-items: center;
+}
+
+.barsOuterLogo {
+
+padding: 20px;
+width: 100%;
+display: inline-flex
+;
+
+}
+
+.iconMobileBarsLogo {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0px 35px 0px 0px;
+  align-items: center;
+}
+
+.fa {
+display: inline-block;
+font: normal normal normal 14px / 1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+color: white;
+
+}
+
+.mobileMenu {
+
+visibility: hidden;
+
+}
+.mobileMenuColumn {
+display: grid;
+padding: 100px;
+height: 300px;
+
+}
+
+
+.mobileMenuInner {
+padding: 40px 0px;
+justify-content: center;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #ff0000f0;
+z-index: 999;
+}
+
+body, html {
+margin: 0;
+padding: 0;
+}
+
+
+.mobileMenu a {
+font-size: 20px;
+padding: 10px;
+
+}
+
+
+.mobileClose {
+
+z-index: 1000;
+
+}
+
+
+.fa-close {
+
+visibility: hidden;
+margin-left: -18px;
+}
+
+.mainNav:hover {
+box-shadow: none;
+animation: fadeIn 2s forwards;
+transition: 0.3s;
+}
+
+
+
+.fa-bars, .fa-close {
+
+font-size: 20px !important;
+
+}
+
+
+html, body {
+touch-action: manipulation; /* Prevents zoom */
+-ms-touch-action: manipulation;
+}
+
+
+
+}
+
+/* Regular iphone */
 
 @media (max-width: 762px) {
 
@@ -1033,7 +1283,7 @@ button {
 
 .TypeJS h1 {
 
-font-size: 36px;
+font-size: 34px;
 
 }
 
@@ -1113,7 +1363,7 @@ visibility: hidden;
 .mobileMenuColumn {
   display: grid;
   padding: 100px;
-  height: 500px;
+  height: 300px;
 
 }
 
@@ -1121,7 +1371,6 @@ visibility: hidden;
 .mobileMenuInner {
   padding: 40px 0px;
   justify-content: center;
-  background-color: red;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -1131,7 +1380,7 @@ visibility: hidden;
   /* display: grid
 ; */
   /* justify-content: center; */
-  background-color: red;
+  background-color: #ff0000f0;
   /* height: 500px; */
   z-index: 999;
 }
@@ -1176,9 +1425,35 @@ transition: 0.3s;
 
 }
 
+
+html, body {
+  touch-action: manipulation; /* Prevents zoom */
+  -ms-touch-action: manipulation;
+}
+
+
 }
 
 /* end */
+
+/* Smallest iphone */
+
+@media (max-width: 388px) {
+
+.column2 {
+  padding: 38px 0px;
+}
+
+.timeline h2 {
+  font-size: 17px;
+}
+
+.innerEducaton p {
+  font-size: 12px;
+}
+
+
+}
 
 
 
