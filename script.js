@@ -155,3 +155,14 @@ menuItems.forEach(menuItem => {
 });
 
 
+function setViewportHeight() {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+// Set initial height
+setViewportHeight();
+
+// Update on resize or orientation change
+window.addEventListener('resize', setViewportHeight);
+window.addEventListener('orientationchange', setViewportHeight);

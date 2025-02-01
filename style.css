@@ -1433,10 +1433,11 @@ html, body {
   -ms-touch-action: manipulation;
 }
 
-/* 
-.backgroundVideoMainOverlay {
-height: 100%;
-} */
+
+.backgroundVideoMainOverlay, .mobileMenuInner {
+
+  height: calc(var(--vh, 1vh) * 100); 
+}
 
 .backgroundVideoSection {
   height: 100%;
