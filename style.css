@@ -1435,8 +1435,7 @@ html, body {
 
 
 .backgroundVideoMainOverlay, .mobileMenuInner {
-
-  height: calc(var(--vh, 1vh) * 100); 
+  height: calc(var(--vh, 1vh) * 100); /* Use dynamic viewport height */
 }
 
 .backgroundVideoSection {
