@@ -1434,9 +1434,7 @@ html, body {
 }
 
 
-.backgroundVideoMainOverlay {
-  height: 950px; /* Use dynamic viewport height */
-}
+
 
 .mobileMenuInner {
 height: 100%;
@@ -1459,9 +1457,7 @@ height: 100%;
 
 @media (max-width: 400px) {
 
-  .backgroundVideoMainOverlay {
-    height: 900px; /* Use dynamic viewport height */
-  }
+
 
 .column2 {
   padding: 0px 0px;
@@ -1485,9 +1481,7 @@ height: 100%;
 
 @media (max-width: 388px) {
 
-  .backgroundVideoMainOverlay {
-    height: 680px;
-  }
+ 
 
   .backgroundVideoSection {
     height: 100%;
@@ -1504,12 +1498,6 @@ height: 100%;
 
 }
 
-@media (max-width: 370px) {
-
-  .backgroundVideoMainOverlay {
-    height: 750px;
-  }
-}
 
 
 
