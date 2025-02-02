@@ -1434,8 +1434,12 @@ html, body {
 }
 
 
-.backgroundVideoMainOverlay, .mobileMenuInner {
-  height: calc(var(--vh, 1vh) * 100); /* Use dynamic viewport height */
+.backgroundVideoMainOverlay {
+  height: 950px; /* Use dynamic viewport height */
+}
+
+.mobileMenuInner {
+height: 100%;
 }
 
 .backgroundVideoSection {
@@ -1445,6 +1449,8 @@ html, body {
   justify-content: flex-end;
 }
 
+
+
 }
 
 /* end */
@@ -1453,7 +1459,9 @@ html, body {
 
 @media (max-width: 400px) {
 
- 
+  .backgroundVideoMainOverlay {
+    height: 900px; /* Use dynamic viewport height */
+  }
 
 .column2 {
   padding: 0px 0px;
@@ -1477,6 +1485,10 @@ html, body {
 
 @media (max-width: 388px) {
 
+  .backgroundVideoMainOverlay {
+    height: 680px;
+  }
+
   .backgroundVideoSection {
     height: 100%;
     padding: 0px 0px;
@@ -1490,6 +1502,13 @@ html, body {
 
   }
 
+}
+
+@media (max-width: 370px) {
+
+  .backgroundVideoMainOverlay {
+    height: 750px;
+  }
 }
 
 
