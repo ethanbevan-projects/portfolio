@@ -1447,7 +1447,10 @@ height: 100%;
   justify-content: flex-end;
 }
 
+.testimonialSectionTitles, .mainSectionTitles {
+  font-size: 30px;
 
+}
 
 }
 
@@ -1476,10 +1479,20 @@ height: 100%;
   font-size: 30px;
 }
 
+#Projects .innerSections-2 {
+  margin: 25px 25px 0px 25px !important;
+  margin-top: 90px;
+}
 
 }
 
 @media (max-width: 388px) {
+
+ 
+
+  .sections-grid .mainSectionTitles {
+    margin: -10px 0px 15px 0px;
+}
 
  
 
