@@ -1299,6 +1299,10 @@ span,
   .mainSectionTitles {
     font-size: 28px;
   }
+
+  .paragraphSpacing {
+    font-size: 14px;
+  }
 }
 
 /* end */
@@ -1343,4 +1347,12 @@ span,
   .column2 {
     padding: 38px 0px;
   }
+}
+
+.menuMobileButton {
+  margin: 0px;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
 }
